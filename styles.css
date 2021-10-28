@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,
 body {
   width: 100%;
@@ -240,3 +241,113 @@ hr {
   
 }
 
+=======
+html,
+body {
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.right i {
+  padding-left: 20px;
+  color: rgb(239, 240, 233);
+  font-size: 1.3rem;
+  padding-right: 1rem;
+}
+
+/* Navbar */
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2.5rem;  
+  padding-left: 0.5rem;
+  font-weight: bold;
+}
+
+/* adding hover effects on links  */
+
+#navbar ul li a:hover {
+  color: rgb(253, 132, 138);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+#navbar img:hover {
+  width: 70px;
+}
+
+.right i {
+  color: white;
+}
+
+.right i:hover {
+  color: rgb(253, 132, 138);
+}
+
+/* Copyright */
+
+a {
+  text-decoration: none;
+}
+
+.copyright {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.projtitle,
+.bottom-heading {
+  font-family: "Titillium Web", sans-serif;
+  color: rgb(13, 90, 161);
+}
+
+/* 1. typewriter effect for tag line */
+
+/* Google Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.line-1 {
+  position: relative;
+  top: 50%;
+  width: 34em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 150%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  font-family: "Anonymous Pro", monospace;
+}
+
+/* Animation */
+
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 34em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+>>>>>>> 220effb9ac040cd3b894bb64ac642bb701aa47f4
