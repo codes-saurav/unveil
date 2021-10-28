@@ -18,7 +18,7 @@ HTML5, CSS (Cascading Style Sheets) form the foundation of the app. JavaScript w
 TO START THE PROJECT ON YOUR LOCAL MACHINE: 
 Open an HTML file and right-click on the editor in Visual Studio Code and click on Open with Live Server. Open the Command Palette by pressing F1 or ctrl+shift+P and type Live Server: Open With Live Server to start a server or type Live Server: Stop Live Server to stop a server.
 
-THE PROJECT IS DEPLOYED ON github page : 
+THE PROJECT IS DEPLOYED ON github page : https://github.com/codes-saurav/unveil
 
 THE PROJECT PRESENTATION LINK : 
 https://drive.google.com/file/d/1BBx4O5vHbMBD9oTvws-ukfmNfcc-S_yk/view?usp=sharing
