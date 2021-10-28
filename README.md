@@ -20,6 +20,9 @@ Open an HTML file and right-click on the editor in Visual Studio Code and click 
 
 THE PROJECT IS DEPLOYED ON github page : 
 
+THE PROJECT PRESENTATION LINK : 
+https://drive.google.com/file/d/1BBx4O5vHbMBD9oTvws-ukfmNfcc-S_yk/view?usp=sharing
+
 
 CONTRIBUTORS : 
 SAURAV RAJ (TEAM LEADER) - github account: https://github.com/saurav1508
