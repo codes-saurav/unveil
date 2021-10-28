@@ -267,6 +267,82 @@
 
         </div>
     </div>
+
+    <!-- Period tracker section -->
+    <br><br>
+    <div class="row justify-content-evenly pt-3 pb-3 text-center tracker">   
+
+        <div class="gap"></div>
+        <div class="col-md-5">
+            <div class="track">
+                <img src="logo3.png" class="logo pb-2" alt="Avatar">
+                <form >
+                    <div class="mb-3">
+                        <!-- <label for="formGroupExampleInput" class="form-label">cycleDays</label> -->
+                        <input type="text" class="form-control myday p-2" name="cycleDays" id="formGroupExampleInput" placeholder="Enter your cycle Days (approx 28 to 31 days)">
+                    </div>
+                    <div class="mb-3">
+                        <!-- <label for="formGroupExampleInput2" class="form-label">lastPeriodStartDay</label> -->
+                        <input type="text" class="form-control myday2 p-2" name="lastPeriodStartDay" id="formGroupExampleInput2" placeholder="Enter the first day of your last period (try between 20th to 28th October)">
+                    </div>
+                    <button class="btn myday3 my-2 bg-danger text-white" onclick="myFunc()">Evaluate</button>
+                    
+                </form>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <h2 style="color: crimson;">Period Tracker</h2>
+            <div class="container2">
+    
+                <div class="row w-50 m-auto text-center my-2">
+                    <div class="col-md-6 m-auto text-center">
+                        <div class="card m-2">
+                            <div class="card-body bg1">
+                                Next Period day: <span id="nextPeriod"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 m-auto text-center">
+                        <div class="card m-2">
+                            <div class="card-body bg1">
+                                Ovulation day: <span id="ovulationDay"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 m-auto text-center">
+                        <div class="card m-2">
+                            <div class="card-body bg1 ">
+                                Fertile Days: <span id="fertileDay"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        </div> 
+
+        <br><br>
+        <hr>
+        <br>
+
+    <!-- Locate Local Shops -->
+    <div class="container-fluid shops-row">
+        <h1 style="text-align: center;" class="shops-head">Locate nearby Medicals <i class="bi bi-bag-plus" style="color:crimson;"></i></h1>
+        <div class="row justify-content-evenly text-center ">
+            <div class="container1">
+            <div class="col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56029.09111360046!2d77.03079911213081!3d28.635210498534658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d038e0dee2897%3A0x84bb3fed8b1c51f9!2sBharati%20Vidyapeeth&#39;s%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1635431285708!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="map" ></iframe>
+            </div>
+            
+            </div>
+            <br>
+            <p class="shops-para" style="margin-top: 20px;">Switch to <strong>Unveil premium!</strong> We will add this section using <strong>Google Places API Paid Services</strong> where user can locate the nearby medical shops.</p>
+        </div>
+    </div>
+    <br><br>
+    <hr >
+    <br><br>
     
     <script src="index.js"></script>
 </body>
