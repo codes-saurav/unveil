@@ -22,5 +22,5 @@ THE PROJECT IS DEPLOYED ON github page :
 
 
 CONTRIBUTORS : 
-SAURAV RAJ (TEAM LEADER) - github account: 
-Riya Verma - github account : 
+SAURAV RAJ (TEAM LEADER) - github account: https://github.com/saurav1508
+RIYA VERMA - github account : https://github.com/riya-verma-7
